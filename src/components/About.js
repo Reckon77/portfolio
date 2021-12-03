@@ -1,4 +1,5 @@
 import React from 'react'
+import {FaGithub,FaLinkedinIn} from 'react-icons/fa';
 import Me from '../Assets/me.png'
 const About = () => {
     return (
@@ -12,16 +13,16 @@ const About = () => {
           <p className="mb-8 leading-relaxed">
           I am currently a computer science undergraduate student who is currently preparing for jobs in SDE roles. My interests include frontend, backend, and AI/ML.
           </p>
-          <div className="flex justify-center">
+          <div className="flex justify-around w-6/12">
             <a
-              href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Work With Me
+              href="https://github.com/Reckon77"
+            >
+              <FaGithub className="text-5xl"/>
             </a>
             <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Past Work
+              href="https://www.linkedin.com/in/reckon-mazumdar-49b8a7193/"
+              >
+              <FaLinkedinIn className="text-5xl"/>
             </a>
           </div>
         </div>
