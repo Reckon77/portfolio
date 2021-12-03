@@ -43,7 +43,7 @@ export const projects = [
         description:
           "A simple web application to get the current weather data of a location. It also auto detects your location using gelocation API and shows the weather data.",
         image: Weather,
-        link: "https://pythonbootcamp.com",
+        link: "https://recks-weather-engine.herokuapp.com/",
       },
       {
         title: "Image Processor",
