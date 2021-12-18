@@ -56,3 +56,44 @@ export const projects = [
   ];
 
   export const skills=['C','C++','Python','React','NodeJS','HTML','CSS','Flask','ML','DSA','OOPS','MongoDB','MySQL','Git & Github']
+
+  export const achievements=[
+    {
+      organization:"IIT Indore",
+      role:"Summer Intern",
+      description:"Made an ML/NLP project on sentimental analysis of Assamese language song reviews.",
+      tenure:"Jun 2021 - Aug 2021",
+      isAchievement:false
+
+    },{
+      organization:"JEC Hackathon",
+      role:"2nd runner up",
+      description:"Developed an application to detect plagiarism in assignments, homework, research papers, and other academic documents which helped us to win the 3rd position among the different engineering colleges of North East India.",
+      tenure:"Oct 2021",
+      isAchievement:true
+    },
+    {
+      organization:"GDSC-AEC",
+      tenure:"Sep 2021 - Present",
+      role:"Web Development Lead",
+      description:"GDSCs are a part of Google's initiative to strengthen the coding, development, and research culture of universities and engineering colleges. I am currently a core member of the GDSC of our campus. As a part of GDSC, I have taken various sessions to teach my juniors new technologies related to web, open source, etc.",
+      isAchievement:false
+    },{
+      organization:"CodeChef",
+      role:"3 star coder",
+      description:"Participated in different contests in CodeChef which is one of the most popular competitive coding site and was successful to secure the highest rating of 1626. ",
+      isAchievement:true
+    },{
+      organization:"AEC coding club",
+      role:"Technical Head",
+      description:"AEC coding club is one of the technical clubs of our college related to programming. As a technical head of this club I have carried out different sessions on different technologies like web, ML, etc., organized hackathons, supervised and contributed to different projects, along with my team.",
+      isAchievement:false,
+      tenure:"Jul 2021 - Present"
+    },{
+      organization:"GFG",
+      role:"#3 institute rank",
+      description:"Solved hundreds of problems related to DSA on GeeksForGeeks and secured a #3 institute rank with an overall coding score of 568.",
+      isAchievement:true,
+      
+    }
+  ]
