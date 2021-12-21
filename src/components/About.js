@@ -22,7 +22,7 @@ const About = () => {
               <FaGithub className="text-5xl"/>
             </a>
             <a
-              href="https://www.linkedin.com/in/reckon-mazumdar-49b8a7193/"
+              href="https://www.linkedin.com/in/reckon-mazumdar/"
               >
               <FaLinkedinIn className="text-5xl"/>
             </a>
