@@ -1,7 +1,7 @@
 import React from 'react'
 import {FaGithub,FaLinkedinIn,FaDownload} from 'react-icons/fa';
 import Me from '../Assets/me.png'
-import Resume from "../Assets/CV_RECKON_MAZUMDAR.docx (4).pdf"
+import Resume from "../Assets/CV_RECKON_MAZUMDAR.pdf"
 const About = () => {
     return (
         <section id="about">
